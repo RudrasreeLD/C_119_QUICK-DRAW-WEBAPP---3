@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#score {
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+#timer {
+    font-size: 25px;
+    float: right;
+    margin-right: 15px;
+}
+
+#sketch_to_be_drawn {
+    color: rgb(123, 204, 255);
+    font-size: 20px;
+}
+
+#your_sketch {
+    font-size: 20px;
+}
+
+#confidence {
+    font-size: 20px;
+}
+
+#show_sketch
+{
+  float:right;
+}
+
+canvas {
+    border: 2px solid black;
+    border-radius: 10px;
+    animation-name: citrus;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes citrus {
+    from {
+        box-shadow: 10px 10px 50px rgb(160, 249, 43);
+    }
+
+    to {
+        box-shadow: 10px 10px 50px rgb(123, 204, 255);
+    }
+}
+
+#show-sketch {
+    float: right;
+}
+
+
